@@ -97,12 +97,14 @@ nav a {
 
 /*-----------------------------*/
 
-span.socialicons {
+.socialicons {
     font-family: 'raleway';
-    font-size: .8em;
+    font-size: .7em;
+    text-transform: uppercase;
+    font-weight: 600;
     color: white;
     letter-spacing: 0.1em;
-    padding-left: 3.5em;
+    padding-left: 4em;
 }
 
 /*---------------------*/
