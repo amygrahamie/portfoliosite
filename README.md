@@ -1,3 +1,3 @@
 # Portfolio
 
-###[My Portfolio Website](https://amygrahamie.github.io/Portfolio/index.html)
+###[My Portfolio Website](https://amygrahamie.github.io/portfoliosite/index.html)
