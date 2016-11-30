@@ -207,7 +207,9 @@ right: 510px;}
     padding-bottom: 3em;
     color: darkslategrey;}
 
-a { color: #4EA2AD;}
+a { color: #88B891;}
+
+a:hover {color: #2E3547;}
 
 
 /*---------------------*/

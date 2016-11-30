@@ -15,7 +15,8 @@ line-height: 1cm;
     align-content: center;
     position: relative;}
 
-a { color: #4EA2AD;}
+a { color: #88B891;}
+a:hover {color: #2E3547;}
 
 
 /*-------------------*/
@@ -195,7 +196,7 @@ li {padding-left: .5em;}
     letter-spacing: 0.2em;
     padding-top: 1.5em;
     padding-bottom: 1em;
-    color: #4EA2AD;
+    color: #88B891;
 }
 
 
