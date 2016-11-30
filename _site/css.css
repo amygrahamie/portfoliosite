@@ -1,0 +1,374 @@
+* { 
+padding: 0em;
+margin: 0;
+font-size: 100%;
+line-height: 1cm;
+}
+
+
+/*-------------------*/
+
+.background {
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: inherit;
+    align-content: center;
+    position: relative;
+    
+}
+
+
+nav a {
+    position: relative;
+    display: inline-block;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    outline: none;
+    color: darkslategrey;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    font-size: .8em;
+    font-family: 'raleway';}
+
+
+/*-------------------*/
+
+nav a:hover,
+nav a:focus {
+    outline: none;}
+
+.cl-effect-14 a {
+    padding: 0 2px;
+    height: 45px;
+    line-height: 45px;}
+
+.cl-effect-14 a::before,
+.cl-effect-14 a::after {
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background: darkslategrey;
+    content: '';
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    pointer-events: none;}
+
+.cl-effect-14 a::before {
+    top: 0;
+    left: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;}
+
+.cl-effect-14 a::after {
+    right: 0;
+    bottom: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 100% 0;
+    -moz-transform-origin: 100% 0;
+    transform-origin: 100% 0;}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::before,
+.cl-effect-14 a:focus::after {
+    opacity: 1;}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:focus::before {
+    left: 50%;
+    -webkit-transform: rotate(0deg) translateX(-50%);
+    -moz-transform: rotate(0deg) translateX(-50%);
+    transform: rotate(0deg) translateX(-50%);}
+
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::after {
+    right: 50%;
+    -webkit-transform: rotate(0deg) translateX(50%);
+    -moz-transform: rotate(0deg) translateX(50%);
+    transform: rotate(0deg) translateX(50%);}
+
+/*--------------------*/
+
+div.container {
+    width: 100%;
+    opacity: 1;
+    padding-top: .8em;
+    }
+
+div.container2 {
+    width: 100%;
+    opacity: 1;
+    padding-bottom: 17em;
+    }
+
+/*--------------------*/
+
+p.space {color: white;
+    width: 30%;}
+
+/*-------A MARQUE------------*/
+
+
+.marque {
+    padding-bottom: 1.5em;
+    max-width: 10%;
+    position: absolute;
+    top: 140px;
+    right: 600px;
+
+    }
+
+/*--------------------*/
+
+div.hr {
+width: 25%;
+padding-bottom: .4em;
+ position: absolute;
+top: 300px;
+right: 510px;}
+
+
+
+.nametop {
+  position: absolute;
+  top: 320px;
+  right: 500px;
+  color: black;
+  font-family: 'raleway';
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 1.1em;
+  font-weight: bolder;}
+
+/*--------------------*/
+
+#darkgrey {
+    background-color: #313131;
+    padding-bottom: .7xem;}
+
+
+/*--------------------*/
+
+.myname {
+    width: 25%;
+    padding-right: .2em;}
+
+/*--------------------*/
+
+.text {
+    width: 80%;}
+
+/*--------------------*/
+
+.arrow {
+    width: 3%;
+    position: absolute;
+    top: 630px;
+    right: 635px;}
+
+.arrow:hover {
+    opacity: 0.6;
+    position: absolute;
+    width: 3%;}
+
+/*--------------------*/
+
+.snapshot {  
+    align-content:center;
+    width: 40%;
+    padding-top: 3em;
+    padding-bottom: 1em;}
+
+
+.getintouch {
+    object-position: left;
+    width: 8%;
+    padding-top: .5em;
+}
+
+.contacttext {
+    
+    width: 55%;
+    font-family: 'raleway';
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    padding-top: 1.5em;
+    padding-bottom: 3em;
+    color: darkslategrey;}
+
+a { color: #4EA2AD;}
+
+
+/*---------------------*/
+
+.parallax {
+    background: url("images/profile%20image.png") 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;}
+
+.parallax2 {
+    background: url("images/amy2.png") 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.7;}
+
+
+.parallax-inner {
+ padding-top: 40%;
+ padding bottom: 50%;}
+
+/*---------------------*/
+
+h2 {
+ 
+  color: darkslategray;
+  display: block;
+  font-family: 'raleway';
+  padding-top: 1em;
+    padding-bottom: .5em;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 1.6em;
+}
+
+h3 {
+  color: darkslategray;
+  display: block;
+  font-family: 'raleway';
+  padding-top: 1.5em;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.2em;
+    font-weight: 700;
+}
+
+.backtotop {
+    float: right;
+    padding-right: 3em;
+    padding-top: 1em;
+    font-size: .8em;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Raleway';
+    letter-spacing: 0.2em;
+    position: relative;
+    text-decoration: underline;
+}
+
+.backtotop:hover {
+    opacity: 0.6;
+}
+/*--------------------*/
+
+.list {
+    float: left;
+    padding-left: 5em;
+    width: 25%;
+    padding-top: 1.5em;
+}
+
+/*--------------------*/
+
+ul {
+    text-align: left;
+    font-family: 'Raleway';
+    font-size: 1.1em;
+    letter-spacing: 0.1em;}
+
+li {padding-left: .5em;}
+
+
+/*----------BACK TO TOP LINK-----------*/
+
+
+.backtotop {
+    float: right;
+    padding-right: 3em;
+    padding-top: 1em;
+    font-size: .8em;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Raleway';
+    letter-spacing: 0.2em;
+    position: relative;
+    text-decoration: underline;
+}
+
+.backtotop:hover {
+    opacity: 0.6;
+}
+
+
+/*---------SOCIAL ICONS-----------*/
+
+.social {
+    padding-top: 1.5em;}
+
+.dribble {
+    width: 3%;
+    padding-right: .5em;
+    padding-left: 3em;
+    opacity: 0.7;
+}
+
+.insta {
+    width: 3%;
+    opacity: 0.7;}
+
+.twitter {
+    width: 3%;
+    padding-left: .5em;
+    opacity: 0.7;}
+
+.mail {
+    width: 3%;
+    padding-left: .5em;
+    opacity: 0.7;}
+
+/*-------------HOVER----------------*/
+
+.dribble:hover {
+    opacity: 1;
+}
+
+.insta:hover {
+    opacity: 1;
+}
+
+.twitter:hover {
+    opacity: 1;
+}
+
+.mail:hover {
+    opacity: 1;
+}
+
+/*-----------------------------*/
+
+.socialicons {
+    font-family: 'raleway';
+    font-size: .7em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.1em;
+    padding-left: 4em;
+}
+
+
+    

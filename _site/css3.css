@@ -1,0 +1,742 @@
+* { 
+padding: 0em;
+margin: 0;
+font-size: 100%;
+line-height: 1cm;
+}
+
+/*-------------------*/
+
+.background {
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: inherit;
+    align-content: center;
+    position: relative;}
+
+/*--------NAVAGATION-----------*/
+
+nav a {
+    position: relative;
+    display: inline-block;
+    margin-right: 2em;
+    margin-left: 2em;
+    outline: none;
+    color: darkslategrey;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    font-size: .8em;
+    font-family: 'raleway';}
+
+
+.amarque {
+    width: 5%;
+    align-content: center;
+    padding-bottom: .5em;}
+
+/*--------NAVAGATION-----------*/
+
+
+nav a:hover,
+nav a:focus {
+    outline: none;}
+
+.cl-effect-14 a {
+    padding: 0 2px;
+    height: 45px;
+    line-height: 45px;}
+
+.cl-effect-14 a::before,
+.cl-effect-14 a::after {
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background: darkslategrey;
+    content: '';
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    pointer-events: none;}
+
+.cl-effect-14 a::before {
+    top: 0;
+    left: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;}
+
+.cl-effect-14 a::after {
+    right: 0;
+    bottom: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 100% 0;
+    -moz-transform-origin: 100% 0;
+    transform-origin: 100% 0;}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::before,
+.cl-effect-14 a:focus::after {
+    opacity: 1;}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:focus::before {
+    left: 50%;
+    -webkit-transform: rotate(0deg) translateX(-50%);
+    -moz-transform: rotate(0deg) translateX(-50%);
+    transform: rotate(0deg) translateX(-50%);}
+
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::after {
+    right: 50%;
+    -webkit-transform: rotate(0deg) translateX(50%);
+    -moz-transform: rotate(0deg) translateX(50%);
+    transform: rotate(0deg) translateX(50%);}
+
+/*--------ARROW - PAGE DOWN ------------*/
+
+.arrow {
+    width: 3%;
+    position: absolute;
+    top: 630px;
+    right: 635px;}
+
+.arrow:hover {
+    opacity: 0.6;
+    position: absolute;
+    width: 3%;}
+
+/*--------CONTAINER------------*/
+
+div.container {
+    width: 100%;
+    opacity: 1;
+    margin-top: 2em;
+ 
+    }
+
+/*---------AMY ELIZABETH GRAHAM-----------*/
+
+div.hr {
+width: 25%;
+padding-bottom: .4em;
+position: absolute;
+top: 300px;
+right: 510px;}
+
+.nametop {
+  position: absolute;
+  top: 320px;
+  right: 515px;
+  color: black;
+  font-family: 'raleway';
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 1em; 
+ 
+}
+
+
+h2 {font-family: 'Raleway';
+    font-size: 2em;
+padding-top: 1em;
+    margin-bottom: 1em;
+text-transform: uppercase;
+letter-spacing: 0.2em;}
+
+/*---------DIV BACKGROUND-----------*/
+
+#darkgrey {
+    background-color: #313131;
+    padding-bottom: 1em;
+    }
+
+/*----------BACK TO TOP LINK-----------*/
+
+
+.backtotop {
+    float: right;
+    padding-right: 3em;
+    padding-top: 1em;
+    font-size: .8em;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Raleway';
+    letter-spacing: 0.2em;
+    position: relative;
+    text-decoration: underline;
+}
+
+.backtotop:hover {
+    opacity: 0.6;
+}
+
+hr {
+width: 55%;
+padding-bottom: .4em;
+padding-top: .4em;
+align-content: center;}
+
+
+/*---------SOCIAL ICONS-----------*/
+
+.social {
+    padding-top: 1.5em;}
+
+.dribble {
+    width: 3%;
+    padding-right: .5em;
+    padding-left: 3em;}
+
+.insta {
+    width: 3%;}
+
+.twitter {
+    width: 3%;
+    padding-left: .5em;}
+
+.mail {
+    width: 3%;
+    padding-left: .5em;}
+
+/*-------------HOVER----------------*/
+
+.dribble:hover {
+    opacity: 0.5;
+}
+
+.insta:hover {
+    opacity: 0.5;
+}
+
+.twitter:hover {
+    opacity: 0.5;
+}
+
+.mail:hover {
+    opacity: 0.5;
+}
+
+.socialicons {
+    font-family: 'raleway';
+    font-size: .7em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.1em;
+    padding-left: 4em;
+}
+/*-----------------------------*/
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+/*-----------SIDE-PROJECT------------*/
+
+
+span.lion {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 500px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.lion span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.lion {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 515px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 585px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.lion {
+  opacity: 1;}
+
+
+/*------------------------------*/
+
+
+span.Tajmahal {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 320px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.Tajmahal span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.Tajmahal {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 330px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 585px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.Tajmahal {
+  opacity: 1;}
+
+
+/*------------------------------*/
+
+span.paperele {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 320px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.paperele span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.paperele {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 330px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 585px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.paperele {
+  opacity: 1;}
+
+
+/*------------------------------*/
+
+
+span.typographyshot {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 310px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.typographyshot span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.typographyshot {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 317px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 585px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.typographyshot {
+  opacity: 1;}
+
+
+/*------------------------------*/
+ 
+
+span.scrapbooking {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 463px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.scrapbooking span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.scrapbooking {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 477px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 585px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.scrapbooking {
+  opacity: 1;}
+
+
+/*------------------------------*/
+
+
+span.Invitations {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 515px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.Invitations span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.Invitations {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 330px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 585px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.Invitations {
+  opacity: 1;}
+
+
+/*------------------------------*/
+
+
+
+span.prints {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 415px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.prints span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.prints {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 427px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 584px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.prints {
+  opacity: 1;}
+
+/*---------------------------------*/
+
+span.chalkboard {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 415px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.chalkboard span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.chalkboard {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 730px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 584px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.chalkboard {
+  opacity: 1;}
+
+/*---------------------------------*/
+
+span.logodesign {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 415px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.logodesign span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.logodesign {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 368px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 585px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.logodesign {
+  opacity: 1;}
+
+/*---------------------------------*/
+
+span.chur {
+  
+  color: white;
+  cursor: pointer;
+  display: table;
+  width: 569px;
+  height: 415px;
+  left: 0;
+  position: absolute;
+  top: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+	
+}
+
+span.chur span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.chur {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 411px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 583px;
+  opacity: 0;
+  font-size: 1.5em;
+  font-family: 'raleway';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+font-weight: 600;}
+
+ul.img-list li:hover span.chur {
+  opacity: 1;}
+
+/*---------------------------------*/
+
+#photos {
+   /* Prevent vertical gaps */
+   line-height: 0;
+   
+   -webkit-column-count: 2;
+   -webkit-column-gap:   15px;
+   -moz-column-count:    2;
+   -moz-column-gap:      15px;
+   column-count:         2;
+   column-gap:           15px;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100%;
+  height: auto;
+    
+
+/*---------------------------------*/
+    

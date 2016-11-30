@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="57px" viewBox="0 0 74 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="6.15701927" y="17.7054699" width="50.6136853" height="10.2011763"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="50.6136853" height="10.2011763" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="512" transform="translate(-209.000000, -205.000000)">
+            <g id="Group-3" transform="translate(210.000000, 206.000000)">
+                <g id="Group-2">
+                    <g id="Group" transform="translate(27.458377, 26.967179) rotate(-1.000000) translate(-27.458377, -26.967179) translate(0.458377, 0.467179)" stroke="#000000">
+                        <path d="M0.0189543993,52.7148963 C0.0189543993,52.7148963 11.0147351,51.8869722 13.3308064,46.3049512 C14.8864239,42.3174732 12.3217739,38.2359176 7.10382402,40.1095763 C1.12718587,42.3344685 0.0189543993,52.7148963 0.0189543993,52.7148963 Z" id="Oval-1" stroke-width="3"></path>
+                        <path d="M1.00657044,51.8549744 L6.71463762,46.4340215" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                        <path d="M35.2549735,13.650163 L40.4441255,19.071116" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                        <use id="Rectangle-1" mask="url(#mask-2)" stroke-width="6" transform="translate(31.463862, 22.806058) rotate(-44.000000) translate(-31.463862, -22.806058) " xlink:href="#path-1"></use>
+                        <path d="M44.6735964,3.1300744 C44.6735964,3.1300744 42.0393917,0.243338071 41.5813414,0.0600886254 C41.1621822,0.243338071 27.7116845,13.8593445 27.7116845,13.8593445 C27.7116845,13.8593445 26.9516009,14.543251 27.4873778,15.0368963 C28.0231547,15.5305416 28.6450364,14.7879588 28.6450364,14.7879588 L41.4367377,2.0611869 L43.5495261,4.16325097 L44.6735964,3.1300744 Z" id="Path-765" fill="#000000"></path>
+                    </g>
+                    <text id=".-.-." font-family="Futura-Bold, Futura" font-size="20" font-weight="bold" letter-spacing="5.19999981" fill="#252525">
+                        <tspan x="19" y="53">. . </tspan>
+                        <tspan x="66.9999992" y="53" letter-spacing="4.15999985">. </tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
